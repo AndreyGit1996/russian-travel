@@ -1,0 +1,25 @@
+.footer {
+    max-width: 1500px;
+    background-color: #2A2C2F;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+
+@media screen and (max-width: 720px) {
+    .footer {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+}
+
+
+@media screen and (max-width: 450px) {
+    .footer {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+}

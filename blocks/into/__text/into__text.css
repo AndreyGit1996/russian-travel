@@ -1,0 +1,40 @@
+.into__text {
+    margin: 0;
+    margin-right: auto;
+    margin-top: 40px;
+    width: 690px;
+    height: 208px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 163%;
+    color: #FFFFFF;
+}
+
+
+@media screen and (max-width: 900px) {
+    .into__text {
+        width: 720px;
+        height: 208px;
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+}
+
+
+@media screen and (max-width: 720px) {
+    .into__text {
+        width: 500px;
+        height: 300px;
+    }
+}
+
+
+@media screen and (max-width: 450px) {
+    .into__text {
+        width: 288px;
+        height: 520px;
+    }
+}

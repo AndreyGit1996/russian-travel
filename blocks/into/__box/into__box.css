@@ -1,0 +1,18 @@
+.into__box {
+    width: 984px;
+    margin: 0 auto;
+}
+
+
+@media screen and (max-width: 1150px) {
+    .into__box {
+        width: 928px;
+    }
+}
+
+
+@media screen and (max-width: 900px) {
+    .into__box {
+        width: 100%;
+    }
+}
