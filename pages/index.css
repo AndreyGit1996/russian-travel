@@ -2,6 +2,12 @@
 @import url(../vendor/fonts/font.css);
 
 
+           /* -----Блок project----- */ 
+/* Блок */
+@import url(../blocks/project/project.css);
+
+
+
            /* -----Блок header----- */
 /* Блок */
 @import url(../blocks/header/header.css);
@@ -9,6 +15,8 @@
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__lang-links/header__lang-links.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
+/* Модификатор */
+@import url(../blocks/header/__lang-link/_active/header__lang-link_active.css);
 
 
 
@@ -28,10 +36,11 @@
 @import url(../blocks/into/into.css);
 /* Элементы */
 @import url(../blocks/into/__title/into__title.css);
-@import url(../blocks/into/__box/into__box.css);
 @import url(../blocks/into/__text/into__text.css);
 @import url(../blocks/into/__lists/into__lists.css);
 @import url(../blocks/into/__list/into__list.css);
+/* Модификатор */
+@import url(../blocks/into/__list/_weight-normal/into__list_weight-normal.css);
 
 
 
@@ -45,17 +54,22 @@
 
 
            /* -----Блок places----- */
-/* Блоки */
+/* Блок */
 @import url(../blocks/places/places.css);
-@import url(../blocks/places/place/place.css);
+
+
+
+           /* -----Блок place----- */
+/* Блок */
+@import url(../blocks/place/place.css);
 /* Элементы */
-@import url(../blocks/places/place/__image/place__image.css);
-@import url(../blocks/places/place/__paragraphs/place__paragraphs.css);
-@import url(../blocks/places/place/__paragraph/place__paragraph.css);
-@import url(../blocks/places/place/__title/place__title.css);
-@import url(../blocks/places/place/__website/place__website.css);
-@import url(../blocks/places/place/__url-heading/plase__url-heading.css);
-@import url(../blocks/places/place/__link/place__link.css);
+@import url(../blocks/place/__image/place__image.css);
+@import url(../blocks/place/__paragraphs/place__paragraphs.css);
+@import url(../blocks/place/__paragraph/place__paragraph.css);
+@import url(../blocks/place/__title/place__title.css);
+@import url(../blocks/place/__website/place__website.css);
+@import url(../blocks/place/__url-heading/plase__url-heading.css);
+@import url(../blocks/place/__link/place__link.css);
 
 
 

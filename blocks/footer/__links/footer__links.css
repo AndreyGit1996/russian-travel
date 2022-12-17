@@ -9,6 +9,13 @@
 }
 
 
+@media screen and (max-width: 1150px) {
+    .footer__links {
+        padding-top: 90px;
+    }
+}
+
+
 @media screen and (max-width: 900px) {
     .footer__links {
         padding-top: 88px;
@@ -19,7 +26,7 @@
 
 @media screen and (max-width: 450px) {
     .footer__links {
-        padding-top: 30px;
+        padding-top: 25px;
         padding-left: 16px;
         padding-bottom: 0;
 
