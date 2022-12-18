@@ -8,24 +8,17 @@
     line-height: 28px;
     color: #FFFFFF;
     text-decoration: none;
-    margin-right: 48px;
-    margin-left: 18px;
 }
 
 .header__lang-link:hover {
     opacity: 0.8;
 }
 
-@media screen and (max-width: 900px) {
-    .header__lang-link {
-        margin-right: 24px;
-    }
-}
+
 
 @media screen and (max-width: 450px) {
     .header__lang-link {
         font-size: 18px;
         line-height: 20px;
-        margin-right: 16px;
     }
 }
