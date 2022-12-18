@@ -40,8 +40,7 @@
 @import url(../blocks/into/__text/into__text.css);
 @import url(../blocks/into/__lists/into__lists.css);
 @import url(../blocks/into/__list/into__list.css);
-/* Модификатор */
-@import url(../blocks/into/__list/_weight-normal/into__list_weight-normal.css);
+@import url(../blocks/into/__list-normal/into__list-normal.css);
 
 
 
