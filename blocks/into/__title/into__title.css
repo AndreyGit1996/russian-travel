@@ -1,6 +1,7 @@
 .into__title {
-    width: 984px;
-    margin: 0 auto;
+    width: 700px;
+    margin: 0;
+    margin-left: 11.5%;
     padding-top: 92px;
     text-align: left;
 
@@ -15,7 +16,7 @@
 
 @media screen and (max-width: 1150px) {
     .into__title {
-        width: 928px;
+        margin-left: 4.7%;
     }
 }
 
@@ -24,6 +25,7 @@
     .into__title {
         width: 720px;
         padding-top: 88px;
+        margin: 0 auto;
     }
 }
 

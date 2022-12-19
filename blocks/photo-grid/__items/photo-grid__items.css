@@ -37,7 +37,7 @@
         padding-top: 64px;
 
         grid-template-columns: auto;
-        gap: 0;
+        row-gap: 12px;
     }
 }
 
@@ -48,6 +48,5 @@
         padding-top: 64px;
 
         grid-template-columns: 1fr;
-        row-gap: 12px;
     }
 }
