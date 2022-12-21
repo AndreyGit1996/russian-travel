@@ -1,5 +1,5 @@
 .cover__background {
-    width: 1184px;
+    max-width: 1184px;
     min-height: 740px;
     margin: 0 auto;
 
@@ -32,9 +32,9 @@
   }
 
 
-  @media screen and (max-width: 1150px) {
+  @media screen and (max-width: 1200px) {
     .cover__background {
-        width: 1024px;
+        max-width: 1024px;
         min-height: 640px;
         background-size: contain;
     }
@@ -43,7 +43,7 @@
 
   @media screen and (max-width: 900px) {
     .cover__background {
-        width: 768px;
+        max-width: 768px;
         min-height: 480px;
     }
   }
@@ -51,7 +51,7 @@
 
   @media screen and (max-width: 720px) {
     .cover__background {
-        width: 480px;
+        max-width: 480px;
         min-height: 300px;
     }
   }
@@ -59,7 +59,7 @@
 
   @media screen and (max-width: 450px) {
     .cover__background {
-        width: 320px;
+        max-width: 320px;
         min-height: 200px;
     }
   }
