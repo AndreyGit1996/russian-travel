@@ -21,7 +21,7 @@ li:first-child .footer__link {
     opacity: 0.8;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 490px) {
     .footer__link{
         max-width: 160px;
         font-size: 24px;

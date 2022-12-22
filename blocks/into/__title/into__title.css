@@ -1,5 +1,5 @@
 .into__title {
-    width: 700px;
+    max-width: 700px;
     margin: 0;
     margin-left: 11.5%;
     padding-top: 92px;
@@ -21,9 +21,9 @@
 }
 
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 940px) {
     .into__title {
-        width: 720px;
+        max-width: 720px;
         padding-top: 88px;
         margin: 0 auto;
     }
@@ -32,7 +32,7 @@
 
 @media screen and (max-width: 720px) {
     .into__title {
-        width: 500px;
+        max-width: 500px;
         height: 70px;
         padding-top: 64px;
 
@@ -42,9 +42,9 @@
 }
 
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 490px) {
     .into__title {
-        width: 288px;
+        max-width: 288px;
         height: 70px;
         padding-top: 64px;
 

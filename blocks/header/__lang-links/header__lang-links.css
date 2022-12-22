@@ -6,11 +6,20 @@
     display: flex;
     justify-content: flex-end;
     margin-top: 46px;
+    margin-right: 48px;
 }
 
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 940px) {
+    .header__lang-links {
+        margin-right: 24px;
+    }
+}
+
+
+@media screen and (max-width: 490px) {
     .header__lang-links {
         margin-top: 30px;
+        margin-right: 16px;
     }
 }

@@ -1,5 +1,5 @@
 .into__lists {
-    width: 700px;
+    max-width: 700px;
     text-align: left;
     margin: 0;
     margin-top: 33px;
@@ -21,9 +21,9 @@
 }
 
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 940px) {
     .into__lists {
-        width: 720px;
+        max-width: 720px;
         margin: 0 auto;
         margin-top: 33px;
     }   
@@ -32,13 +32,13 @@
 
 @media screen and (max-width: 720px) {
     .into__lists {
-        width: 500px;
+        max-width: 500px;
     }   
 }
 
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 490px) {
     .into__lists {
-        width: 288px;
+        max-width: 288px;
     }   
 }

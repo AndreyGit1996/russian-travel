@@ -16,7 +16,7 @@
 }
 
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 940px) {
     .photo-grid__item {
         width: 352px;
         height: 264px;
@@ -26,13 +26,14 @@
 
 @media screen and (max-width: 720px) {
     .photo-grid__item {
-        width: 100%;
-        object-fit: contain;
+        width: 440px;
+        height: 330px;
+        margin: 0 auto;
     }
 }
 
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 490px) {
     .photo-grid__item {
         width: 288px;
         height: 216px;

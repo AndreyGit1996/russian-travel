@@ -19,7 +19,7 @@
 }
 
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 940px) {
     .photo-grid__items {
         width: 720px;
         padding-top: 88px;
@@ -37,12 +37,12 @@
         padding-top: 64px;
 
         grid-template-columns: auto;
-        row-gap: 12px;
+        gap: 12px;
     }
 }
 
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 490px) {
     .photo-grid__items {
         width: 288px;
         padding-top: 64px;

@@ -1,5 +1,6 @@
 .header__lang-link {
     margin: 0;
+    margin-left: 18px;
 
     font-family: 'Inter', 'Arial', sans-serif;
     font-style: normal;
@@ -16,7 +17,7 @@
 
 
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 490px) {
     .header__lang-link {
         font-size: 18px;
         line-height: 20px;

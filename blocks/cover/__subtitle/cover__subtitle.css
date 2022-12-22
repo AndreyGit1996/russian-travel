@@ -1,7 +1,7 @@
 .cover__subtitle {
     max-width: 360px;
     margin: 0;
-    margin-top: 32px;
+    margin-top: 30px;
 
     font-family: 'Inter', 'Arial', sans-serif;
     font-style: normal;
@@ -24,7 +24,7 @@
 }
 
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 490px) {
     .cover__subtitle {
         width: 288px;
     }

@@ -22,7 +22,7 @@
 }
 
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 940px) {
     .lead__caption {
         width: 720px;
     }
@@ -36,7 +36,7 @@
 }
 
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 490px) {
     .lead__caption {
         width: 288px;
     }
